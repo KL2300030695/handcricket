@@ -2,9 +2,6 @@
 
 This is a real-time **Hand Cricket Game** built using Python, OpenCV, and MediaPipe. You can play cricket by just using your fingers in front of a webcam — no mouse or keyboard needed!
 
-### 📸 Demo
-https://user-images.githubusercontent.com/your-demo-gif.mp4 *(Optional - You can upload a video/gif demo)*
-
 ---
 
 ## 🚀 Features
@@ -35,3 +32,19 @@ https://user-images.githubusercontent.com/your-demo-gif.mp4 *(Optional - You can
 python -m venv venv
 venv\Scripts\activate   # Windows
 source venv/bin/activate # Linux/macOS
+
+
+📦 Install dependencies:
+
+bash
+Copy
+Edit
+pip install opencv-python mediapipe
+
+
+▶️ Run the game:
+
+bash
+Copy
+Edit
+python handcricket.py
